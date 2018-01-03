@@ -1,0 +1,147 @@
+[genuitec-file-id="wc1-74"],[genuitec-lp-path="/feicuiwb/src/main/webapp/front/css/feicuinews.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+/*导航*/
+.nav>li a{
+    border: none;
+}
+.nav>li:nth-child(9)>a{
+    border-bottom: 6px solid #00a841;
+}
+
+#header {
+	width: 100%;
+	height: 164px;
+}
+#footer {
+	width: 100%;
+	height: 767px;
+}
+
+/*标题*/
+#titleWrap {
+	width: 100%;
+	height: 150px;
+	margin-top: 164px;
+	background: url(../img/news/Journalism-kong.png) no-repeat;
+}
+.title {
+	width: 260px;
+	height: 100%;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.title h1 {
+	font: 50px "微软雅黑";
+	margin-top: 30px;
+}
+.title p {
+	font: 24px "微软雅黑";
+}
+
+
+/*新闻部分*/
+#contentWrap {
+	width: 100%;
+	min-height: 927px;
+	background-color: #f7f7f7;
+	/*overflow: hidden;*/
+	padding: 50px 0;
+}
+
+.content {
+	min-height: 890px;
+	padding-top: 37px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.nav_active {
+	background: url(../img/news/Cedaohang-dangqian.png) no-repeat;
+}
+
+.nav_list:last-of-type {
+	margin-top: 13px;
+}
+
+/*新闻内容*/
+
+.news_wrap {
+	width: 100%;
+	min-height: 769px;
+	background-color: #f0eeef;
+	position: relative;
+}
+
+/*新闻详情高度自适应*/
+.news_wrap.news_descript {
+	width: 100%;
+	background-color: #f0eeef;
+	position: relative;
+} 
+
+.news_title {
+	width: 100%;
+	height: 60px;
+	background-color: #222;
+}
+
+.title_left {
+	color: #00a841;
+	font: 24px/60px "微软雅黑";
+	margin-left: 50px;
+}
+
+.title_nav {
+	margin-right: 50px;
+}
+
+.title_nav,
+.title_nav a {
+	color: #f5f5f5;
+	font: 14px/60px "微软雅黑";
+	
+}
+
+
+
+
+
+/*新闻详情*/
+.hide {
+	display: none;
+}
+
+.news_article {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 20px 80px;
+	overflow: hidden;
+}
+.news_article h1 {
+	padding: 20px 0;
+	text-align: center;
+}
+.news_article img {
+	width: 80%;
+	margin: 0 auto;
+}
+.news_article p {
+	margin-top: 20px;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
